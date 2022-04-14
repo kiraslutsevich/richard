@@ -1,0 +1,21 @@
+.sem-risus__container{
+	max-width: 96.9rem;
+	.sem-risus__content{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		gap: 8rem;
+		margin: 0 0 16rem 0;
+	}
+}
+@import 'text-block';
+
+@media (max-width:768px) {
+	.sem-risus__container{
+		.sem-risus__content{
+			text-align: center;
+			margin: 0 0 8rem 0;
+		}
+	}
+}

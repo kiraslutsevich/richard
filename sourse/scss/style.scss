@@ -1,0 +1,17 @@
+@import 'nullstyle';
+@import 'fonts';
+@import 'colors';
+
+[class*=__container]{
+	max-width: 1240px;
+	max-height: 100%;
+	margin: 0px auto;
+}
+.wrapper{
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+@import 'header';
+@import 'main';

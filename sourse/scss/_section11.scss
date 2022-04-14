@@ -1,0 +1,64 @@
+.get-started{
+	background: $gradient_back;
+.get-started__phone{
+	background: url('/img/Vector.svg');
+	height: 47.5rem;
+
+	.get-started__container{
+		.get-started__content{
+			height: 47.5rem;
+			display: flex;
+			flex-direction: column;
+			gap: 6rem;
+			align-items: center;
+			justify-content: center;
+			h2{
+				font-size: 3.8rem;
+				color: $white;
+			}
+			.buttons{
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+				gap: 1rem;
+				.download-now{
+					width: 17rem;
+					height: 6.6rem;
+					color: $white;
+					background-color: $pink;
+					border-radius: 0.3rem;
+					&:hover{
+						color: $pink;
+						background-color: $white;
+					}
+				}
+				.get-in-touch{
+					width: 17rem;
+					height: 6.6rem;
+					color: $white;
+					background: none;
+					border: 0.2rem solid $pink;
+					&:hover{
+						color: $pink;
+						background-color: $white;
+					}
+				}
+			}
+		}
+	}
+}
+}
+@media (max-width:320px) {
+	.get-started{
+		.get-started__phone{
+			.get-started__container{
+				.get-started__content{
+					text-align: center;
+					.buttons{
+						flex-wrap: wrap;
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,64 @@
+.cards__container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 16.3rem;
+	.cards__advantages{
+		display: flex;
+		gap: 6rem;
+		.activity, .custom, .mobile{
+			flex: 0 1 33%;
+			text-align: center;
+			.img{
+				margin: 0 0 4rem 0;
+			}
+			h3{
+				font-weight: 700;
+				font-size: 1.8rem;
+				margin: 0 0 1.7rem 0;
+			}
+			p{
+				line-height: 3rem;
+				color: $darkgrey;
+			}
+		}
+	}
+	.cards__statistic{
+		display: flex;
+		text-align: center;
+		margin: 0 0 17rem 0;
+		.nibh, .aenean, .quam, .ullamcorper{
+			flex: 0 1 25%;
+			.number{
+				font-size: 5.9rem;
+				margin: 0 0 1rem 0;
+				line-height: 9rem;
+			}
+			p{
+				font-weight: 700;
+				font-size: 1.8rem;
+			}
+		}
+	}
+}
+@media (max-width:500px) {
+	.cards__container{
+		gap: 5rem;
+		.cards__advantages{
+			flex-wrap: wrap;
+			justify-content: space-around;
+			gap: 1rem;
+			.activity, .custom, .mobile{
+				p{
+					display: none;
+				}
+			}
+		}
+		.cards__statistic{
+			flex-wrap: wrap;
+			justify-content: space-around;
+			gap: 2rem;
+			margin: 0 0 10rem 0;
+		}
+	}
+}

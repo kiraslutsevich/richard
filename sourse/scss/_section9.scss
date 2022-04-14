@@ -1,0 +1,49 @@
+.citation__container{
+	max-width: 70rem;
+	.citation__content{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		.quotes{
+			margin-bottom: 6.6rem;}
+		.text{
+			font-size: 2.4rem;
+			line-height: 4rem;
+			margin-bottom: 1.7rem;
+		}
+		.sign{
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			gap: 2rem;
+			margin-bottom: 8.8rem;
+			.sign__magazine{
+				font-weight: 700;
+			}
+		}
+		.dotes{
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			gap: 1.6rem;
+			margin-bottom: 14.2rem;
+		}
+		.sponsor{
+			margin-bottom: 11.8rem;
+		}
+	}
+}
+@media (max-width:768px) {
+	.citation__container{
+		.citation__content{
+			.sponsor{
+				display: none;}
+			.text{
+					padding: 2rem;}
+			.dotes{
+				margin-bottom: 2rem;
+			}
+		}
+	}
+}

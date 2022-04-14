@@ -1,0 +1,22 @@
+.text-block{
+	width: 306px;
+	h4{
+		font-size: 1.2rem;
+		text-transform: uppercase;
+		margin-bottom: 3rem;
+		color: $grey;
+	}
+	h2{
+		font-size: 3.8rem;
+		margin-bottom: 2.2rem;
+	}
+	p{
+	color: $darkgrey;
+	line-height: 3rem;
+	}
+}
+@media (max-width:425px){
+	.text-block{
+		text-align: center;
+	}
+}

@@ -1,0 +1,24 @@
+.parturient__container{
+	max-width: 96.9rem;
+	.parturient__content{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		gap: 8rem;
+		margin: 0 0 16rem 0;
+	}
+}
+@import 'text-block';
+
+@media (max-width:768px) {
+	.parturient__container{
+		.parturient__content{
+			text-align: center;
+			margin: 0 0 8rem 0;
+			.picture{
+				order: 1;
+			}
+		}
+	}
+}

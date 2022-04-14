@@ -1,0 +1,44 @@
+.nullam{
+	min-width: 100vh;
+	background: $black;
+	.nullam__container{
+		height: 100%;
+		padding-top: 8rem;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		.nullam__content{
+			text-align: center;
+			color: $white;
+
+			h2{
+				font-size: 3.8rem;
+				width: 60rem;
+				margin-bottom: 5.5rem;
+			}
+			h4{
+				font-size: 1.2rem;
+				text-transform: uppercase;
+				margin-bottom: 3rem;
+			}
+			}
+	img{
+		object-fit: cover;
+		width: 83%;
+	}
+}
+}
+@media (max-width:1240px) {
+	.nullam{
+		min-width: 320px;
+		.nullam__container{
+			.nullam__content{
+				h2{
+					width: 30rem;
+					font-size: 2rem;
+				}
+			}
+		}
+}
+}
