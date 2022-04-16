@@ -7,15 +7,11 @@
 		align-items: center;
 		gap: 8rem;
 		margin: 0 0 16rem 0;
-	}
-}
-@import 'text-block';
-
-@media (max-width:768px) {
-	.sem-risus__container{
-		.sem-risus__content{
+		@media (max-width:768px){
 			text-align: center;
 			margin: 0 0 8rem 0;
 		}
 	}
 }
+@import './text-block';
+

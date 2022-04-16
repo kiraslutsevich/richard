@@ -11,6 +11,9 @@
 			font-size: 2.4rem;
 			line-height: 4rem;
 			margin-bottom: 1.7rem;
+			@media (max-width:768px){
+				padding: 2rem;
+			}
 		}
 		.sign{
 			display: flex;
@@ -28,21 +31,14 @@
 			justify-content: center;
 			gap: 1.6rem;
 			margin-bottom: 14.2rem;
+			@media (max-width:768px){
+				margin-bottom: 2rem;
+			}
 		}
 		.sponsor{
 			margin-bottom: 11.8rem;
-		}
-	}
-}
-@media (max-width:768px) {
-	.citation__container{
-		.citation__content{
-			.sponsor{
-				display: none;}
-			.text{
-					padding: 2rem;}
-			.dotes{
-				margin-bottom: 2rem;
+			@media (max-width:768px){
+				display: none;
 			}
 		}
 	}

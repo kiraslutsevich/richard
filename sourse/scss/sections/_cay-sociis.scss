@@ -1,5 +1,6 @@
 .cay-sociis__container{
 	max-width: 89.2rem;
+
 	.cay-sociis__content{
 		display: flex;
 		flex-wrap: wrap;
@@ -7,17 +8,14 @@
 		justify-content: center;
 		gap: 19.5rem;
 		padding: 8rem 0 8rem 0;
+		@media (max-width: 768px){
+			gap:5rem;
+		}
+		
 		.image{
 			width: 34.1rem;
 			height: 63.7rem;
 		}
 	}
 }
-@import 'text-block';
-@media (max-width: 768px) {
-	.cay-sociis__container{
-		.cay-sociis__content{
-		gap:5rem;
-	}
-}
-}
+@import './text-block';

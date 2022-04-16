@@ -1,0 +1,64 @@
+.e-mail{
+	background: $black;
+
+	.e-mail__container{
+		@media (max-width:500px){
+			text-align: center;
+		}
+
+		.e-mail__content{
+			height: 46.3rem;	
+			display: flex;
+			flex-direction: column;	
+			align-items: center;
+			justify-content: center;
+
+			h2{
+				color: $white;
+				margin-bottom: 2rem;
+			}
+
+			p{
+				color: $darkgrey;
+				margin-bottom: 4rem;
+			}
+			
+			.input-button{
+				display: flex;
+				@media (max-width:500px){
+					flex-direction: column;
+					gap: 3rem;
+					align-items: center;
+				}
+				
+				.field{
+					width: 31.1rem;
+					height: 7rem;
+					border-radius: 3px 0px 0px 3px;
+					padding-left: 2.2rem;
+					&::placeholder{
+						color: $darkblack;
+					}
+					@media (max-width:500px){
+						border-radius: 3px;
+					}
+				}
+				.submit{
+					width: 15.4rem;
+					height: 7rem;
+					border-radius: 0px 3px 3px 0px;
+					background: $pink;
+					transition: 1s;
+					&:hover{
+						background-color: $violet;
+						font-weight: 700;
+						cursor: pointer;
+					}
+					@media (max-width:500px){
+						border-radius: 3px;
+					}
+				}
+			}
+		}
+	}
+}

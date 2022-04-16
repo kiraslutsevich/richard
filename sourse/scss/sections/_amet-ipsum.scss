@@ -1,5 +1,6 @@
 .amet-ipsum__container{
 	max-width: 83.6rem;
+	
 	.amet-ipsum__content{
 		display: flex;
 		flex-wrap: wrap;
@@ -7,27 +8,21 @@
 		justify-content: center;
 		gap: 14.4rem;
 		padding: 8rem 0 8rem 0;
+		@media (max-width: 768px){
+			gap:4rem;
+		}
+		@media (max-width:425px){
+			padding: 0;
+		}
+
 		.image{
 			width: 38.6rem;
 			height: 46.9rem;
-		}
-	}
-}
-@import 'text-block';
-@media (max-width: 768px) {
-	.amet-ipsum__container{
-		.amet-ipsum__content{
-		gap:4rem;
-	}
-}
-}
-@media (max-width:425px) {
-	.amet-ipsum__container{
-		.amet-ipsum__content{
-			padding: 0;
-			.image{
+			@media (max-width:425px){
 				order: 1;
 			}
 		}
 	}
 }
+@import './text-block';
+

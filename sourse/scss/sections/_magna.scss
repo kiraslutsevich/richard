@@ -1,5 +1,6 @@
 .magna__container{
 	max-width: 84.2rem;
+
 	.magna__content{
 		display: flex;
 		flex-wrap: wrap;
@@ -8,26 +9,21 @@
 		gap: 19.5rem;
 		padding: 8rem 0 8rem 0;
 		margin: 0 0 8rem 0;
+		@media (max-width: 768px){
+			gap:5rem;
+		}
+		@media (max-width: 500px){
+			margin: 0;
+		}
+
 		.image{
 			width: 34.1rem;
 			height: 50.8rem;
 		}
 	}
 }
-@import 'text-block';
+@import './text-block';
 
-@media (max-width: 768px) {
-	.magna__container{
-		.magna__content{
-		gap:5rem;
-	}
-}
-}
-@media (max-width: 500px){
-	.magna__container{
-		.magna__content{
-			margin: 0;
-		}
-	}
-}
+
+
 

@@ -1,6 +1,6 @@
-@import 'nullstyle';
-@import 'fonts';
-@import 'colors';
+@import './general/nullstyle';
+@import './general/fonts';
+@import './general/colors';
 
 [class*=__container]{
 	max-width: 1240px;
@@ -9,9 +9,19 @@
 }
 .wrapper{
 	overflow: hidden;
-	display: flex;
-	flex-direction: column;
 	min-height: 100vh;
 }
 @import 'header';
 @import 'main';
+@import './sections/tablet';
+@import './sections/cay-sociis';
+@import './sections/amet-ipsum';
+@import './sections/magna';
+@import './sections/cards';
+@import './sections/sem-risus';
+@import './sections/parturient';
+@import './sections/citation';
+@import './sections/mobile-phones';
+@import './sections/get-started';
+@import './sections/e-mail';
+@import 'footer';

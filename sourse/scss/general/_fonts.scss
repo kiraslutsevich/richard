@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Gothic+A1:regular,700);
+
+html{
+	font-size: 62.5%;
+	@media (max-width:1024px){
+		font-size: 60.5%;
+	}
+	@media (max-width:435px){
+		font-size: 58%;
+	}
+
+}
+body{
+	font-family: 'Gothic A1';
+	font-size: 1.6rem;
+}
+h1{
+	font-size: 8rem;
+}
+h2{
+	font-size: 3.8rem;
+}
+h3{
+	font-size: 1.8rem;
+}
+h4{
+	font-size: 1.2rem;
+}
